@@ -1,4 +1,4 @@
-//MFLIX_DB_URI=mongodb+srv://yahya:159@mflix-e2l9g.mongodb.net/test?retryWrites=true
+
 import { ObjectId } from "bson"
 
 let movies
