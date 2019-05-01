@@ -21,8 +21,3 @@ app.use("*", (req, res) => res.status(404).json({ error: "not found" }))
 
 export default app
 
-//mongodb+srv://yahya:159@mflix-e2l9g.mongodb.net/test?retryWrites=true
-
-// mongorestore --drop --gzip --uri \"mongodb+srv://yahya:159@mflix-e2l9g.mongodb.net/test?retryWrites=true" data
-
-// mongorestore --drop --gzip --uri mongodb+srv://yahya:159@mflix-e2l9g.mongodb.net/test?retryWrites=true data
